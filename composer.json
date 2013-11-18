@@ -1,0 +1,21 @@
+{
+    "name": "hpatoio/bitly-bundle",
+    "type": "symfony-bundle",
+    "description": "Integrate hpatoio/bitly-api in your Symfony2 project",
+    "keywords": ["api", "bitly", "guzzle"],
+    "license": "CC-BY-SA-3.0",
+    "authors": [
+        {
+            "name": "Simone Fumagalli",
+            "homepage": "http://www.iliveinperego.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "hpatoio/bitly-api": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Hpatoio\\BitlyBundle": "" }
+    },
+    "target-dir": "Hpatoio/BitlyBundle"
+}
