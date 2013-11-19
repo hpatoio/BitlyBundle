@@ -1,11 +1,7 @@
-Getting started with HpatoioBitlyBundle
+Installation and setup
 ======================================
 
-Setup
------
-
-- Add hpatoio/bitly-bundle as a dependency in your project's composer.json file:
-
+###### Add hpatoio/bitly-bundle as a dependency in your project's `composer.json` file
 ```
 {
     "require": {
@@ -14,8 +10,7 @@ Setup
 }
 ```
 
-- Add HpatoioBitlyBundle to your application kernel
-
+###### Add HpatoioBitlyBundle to your application kernel
 ``` php
 <?php
 // app/AppKernel.php
@@ -29,33 +24,26 @@ public function registerBundles()
 }
 ```
 
-- Yml configuration
-
+###### Add you access_token to `config.yml`
 ``` yml
 # app/config/config.yml
 parameters:
     hpatoio_bitly.access_token: here_your_bitly_access_token
 ```
 
-Visit [this page](https://bitly.com/a/oauth_apps) to get your access token.
+ * Visit [this page](https://bitly.com/a/oauth_apps) to get your access token.
+ 
 
 Usage
 -----
 
- - Using service
-
-Open your controller and call the service.
-
 ``` php
 <?php
     $bitly_client = $this->get('hpatoio_bitly.client');
+    $result = $bitly_client->Shorten(array("longUrl" => "http://www.iliveinperego.com/"));
 ?>
 ```
 
-Then you can use one of the methods of HpatoioBitly class
+For more information about `hpatoio/bitly-api` and how use it [look here](https://github.com/hpatoio/bitly-api)
 
-``` php
-<?php
-    $result = $bitly_client->->Shorten(array("longUrl" => "http://www.iliveinperego.com/"));
-?>
-```
+
