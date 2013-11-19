@@ -1,19 +1,18 @@
 HpatoioBitlyBundle
 =================
 
+[![Total Downloads](https://poser.pugx.org/hpatoio/bitly-bundle/downloads.png)](https://packagist.org/packages/hpatoio/bitly-bundle)
+[![Latest Stable Version](https://poser.pugx.org/hpatoio/bitly-bundle/v/stable.png)](https://packagist.org/packages/hpatoio/bitly-bundle)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hpatoio/bitlybundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+
 Integrate [hpatoio/bitly-api](https://github.com/hpatoio/bitly-api) in your Symfony2 project
 
-**License**
-
-HpatoioBitlyBundle is licensed under the GNU GPL v2 - see the `Resources/meta/LICENSE` file for details
 
 Documentation
 -------------
+[Read the Documentation](https://github.com/hpatoio/BitlyBundle/blob/master/Resources/doc/index.md)
 
-The bulk of the documentation is stored in the `Resources/doc/index.md` file in this bundle:
-
-[Read the Documentation for master](https://github.com/hpatoio/BitlyBundle/blob/master/Resources/doc/index.md)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hpatoio/bitlybundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+License
+-------------
+DeployBundle is licensed under the CC-BY-SA-3.0 - see [here](http://www.spdx.org/licenses/CC-BY-SA-3.0) for details
