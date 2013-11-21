@@ -1,5 +1,4 @@
-HpatoioBitlyBundle
-=================
+# HpatoioBitlyBundle
 
 [![Total Downloads](https://poser.pugx.org/hpatoio/bitly-bundle/downloads.png)](https://packagist.org/packages/hpatoio/bitly-bundle)
 [![Latest Stable Version](https://poser.pugx.org/hpatoio/bitly-bundle/v/stable.png)](https://packagist.org/packages/hpatoio/bitly-bundle)
