@@ -24,15 +24,32 @@ public function registerBundles()
 }
 ```
 
-###### Add you access_token to `config.yml`
+###### Setup
+
+
 ``` yml
 # app/config/config.yml
-parameters:
-    hpatoio_bitly.access_token: here_your_bitly_access_token
+hpatoio_bitly:
+    # You Bitly access token. Visit [this page](https://bitly.com/a/oauth_apps) to get it.
+    access_token: insert_here_you_bitly_access_token
+    
+    # These parameters are optionals !
+    
+    # Turn the profiler on (Details in the next section)
+    profiler: on
+    
+    # Turn file log on and specify log format  (Details in the next section)
+    file_log_format: [default|debug|short]
 ```
 
- * Visit [this page](https://bitly.com/a/oauth_apps) to get your access token.
- 
+##### Profiler
+
+If you turn on the profiler you will see one more icon in the *Web Debug Toolbar* and you can easily see details about all requests made by this bundle. These is useful on *dev* environment.
+
+##### File log
+
+You can log all requests and response made by this bundle by specifying *file_log_format*. Allowed values are default, debug and short. You can also pass a MessageFormatter http://docs.guzzlephp.org/en/latest/plugins/log-plugin.html
+
 
 Usage
 -----
