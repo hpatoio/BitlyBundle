@@ -1,0 +1,11 @@
+services:
+    hpatoio_bitly.log.array:
+        class: "Guzzle\\Plugin\\Log\\LogPlugin"
+        arguments: ["@hpatoio_bitly.log.adapter.array"]
+    hpatoio_bitly.log.adapter.array:
+        class: "Guzzle\\Log\\ArrayLogAdapter"
+    hpatoio_bitly.bitly_data_collector:
+        class: "Hpatoio\\BitlyBundle\\DataCollector\\BitlyDataCollector"
+        arguments: ["@hpatoio_bitly.log.adapter.array"]
+        tags:
+            - { name: data_collector, template: "HpatoioBitlyBundle:Collector:bitly", id: "hpatoio_bitly_bundle"  }

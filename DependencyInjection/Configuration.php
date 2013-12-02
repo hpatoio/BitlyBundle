@@ -26,6 +26,23 @@ class Configuration implements ConfigurationInterface
         
         // No custom configuration as suggested here: http://symfony.com/doc/current/cookbook/bundles/best_practices.html#configuration
 
+        $rootNode
+            ->children()
+                ->scalarNode('access_token')
+                    ->info('Your Bitly access token. Get it here https://bitly.com/a/oauth_apps')
+                    ->isRequired()
+                    ->cannotBeEmpty()
+                    ->end()
+                ->scalarNode('file_log_format')
+                    ->defaultValue('default')
+                    ->info('Format for file logging. You can user default/debug/short or custom MessageFormatter string.')
+                    ->end()
+                ->scalarNode('profiler')
+                    ->defaultValue('default')
+                    ->info('Enable Symfony profiler panel')
+                    ->end()
+                ->end();
+        
         return $treeBuilder;
     }
 }
