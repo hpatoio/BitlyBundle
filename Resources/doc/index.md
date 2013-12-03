@@ -50,6 +50,36 @@ If you turn on the profiler you will see one more icon in the *Web Debug Toolbar
 
 You can log all requests and response made by this bundle by specifying *file_log_format*. Allowed values are default, debug and short. You can also pass a MessageFormatter http://docs.guzzlephp.org/en/latest/plugins/log-plugin.html
 
+Logs are written to `bitly_api` monolog channel. So you can send Bitly API log where you like most.
+
+For instance to log to a different file use a configuration like this one:
+
+``` yml
+# app/config/config.yml
+
+monolog:
+    handlers:
+        main:
+            type:  stream
+            path:  %kernel.logs_dir%/%kernel.environment%.log
+            level: debug
+            channels: [!bitly_api]
+        nested:
+            type:  stream
+            path:  %kernel.logs_dir%/%kernel.environment%.log
+            level: debug
+        bitly:
+            type:  stream
+            path:  %kernel.logs_dir%/bitly_api.log
+            level: debug
+            channels: [bitly_api]
+
+```
+
+More details about monolog, channels and Symfony can be found on [the docs](http://symfony.com/doc/master/cookbook/logging/channels_handlers.html) 
+
+**Don't forget to turn on logging**
+
 
 Usage
 -----
