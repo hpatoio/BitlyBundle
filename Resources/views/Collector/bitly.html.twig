@@ -8,7 +8,7 @@
     {% endset %}
     {% set text %}
     <div class="sf-toolbar-info-piece">
-        <b>HTTP Requests</b>
+        <b>Bitly Requests</b>
         <span>{{ collector.requests|length }}</span>
     </div>
     {% endset %}
@@ -18,7 +18,7 @@
 {% block menu %}
     <span class="label">
     <span class="icon"><img src="{{ asset('bundles/misdguzzle/images/profiler/guzzle.png') }}" alt=""/></span>
-    <strong>Guzzle</strong>
+    <strong>Bitly</strong>
     <span class="count">
         <span>{{ collector.requests|length }}</span>
     </span>
