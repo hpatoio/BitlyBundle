@@ -15,3 +15,7 @@ Documentation
 License
 -------------
 DeployBundle is licensed under the CC-BY-SA-3.0 - see [here](http://www.spdx.org/licenses/CC-BY-SA-3.0) for details
+
+Credits
+-------------
+The structure of this bundle was inspired by the [mis/guzzle-bundle](https://github.com/misd-service-development/guzzle-bundle)
