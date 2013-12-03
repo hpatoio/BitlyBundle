@@ -78,7 +78,7 @@ monolog:
 
 More details about monolog, channels and Symfony can be found on [the docs](http://symfony.com/doc/master/cookbook/logging/channels_handlers.html) 
 
-*Don't forget to turn on logging*
+**Don't forget to turn on logging**
 
 
 Usage
