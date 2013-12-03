@@ -1,9 +1,10 @@
 <?php
 
 /*
- * This file is part of the Symfony2 GuzzleBundle.
+ * This file was taken from Symfony2 GuzzleBundle and modified.
  *
  * (c) University of Cambridge
+ * (c) Simone Fumagalli | simone@iliveinperego.com
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
