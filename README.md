@@ -14,7 +14,7 @@ Documentation
 
 License
 -------------
-DeployBundle is licensed under the CC-BY-SA-3.0 - see [here](http://www.spdx.org/licenses/CC-BY-SA-3.0) for details
+BitlyBundle is licensed under the CC-BY-SA-3.0 - see [here](http://www.spdx.org/licenses/CC-BY-SA-3.0) for details
 
 Credits
 -------------
