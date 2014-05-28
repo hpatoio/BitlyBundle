@@ -15,7 +15,6 @@
         "hpatoio/bitly-api": "dev-psr4"
     },
     "autoload": {
-        "psr-0": { "Hpatoio\\BitlyBundle": "" }
-    },
-    "target-dir": "Hpatoio/BitlyBundle"
+        "psr-4": { "Hpatoio\\BitlyBundle": "" }
+    }
 }
