@@ -1,4 +1,4 @@
 services:
     hpatoio_bitly.client:
-        class: "Bitly\\Api\\BitlyClient"
+        class: "Hpatoio\\Bitly\\Client"
         arguments: [%hpatoio_bitly.access_token%]

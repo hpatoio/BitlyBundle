@@ -15,6 +15,6 @@
         "hpatoio/bitly-api": "dev-psr4"
     },
     "autoload": {
-        "psr-4": { "Hpatoio\\BitlyBundle": "" }
+        "psr-4": { "Hpatoio\\BitlyBundle\\": "" }
     }
 }
