@@ -41,7 +41,11 @@ class BitlyDataCollector extends DataCollector
 
     public function getRequests()
     {
-        return $this->data['requests'];
+        if(isset($this->data['requests'])) {
+            return $this->data['requests'];
+        } else {
+            return null;
+        }
     }
 
     public function getName()
