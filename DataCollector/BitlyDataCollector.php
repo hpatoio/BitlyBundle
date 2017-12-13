@@ -52,4 +52,9 @@ class BitlyDataCollector extends DataCollector
     {
         return 'hpatoio_bitly_bundle';
     }
+
+    public function reset()
+    {
+        $this->data['requests'] = [];
+    }
 }
