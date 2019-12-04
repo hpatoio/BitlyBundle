@@ -1,5 +1,7 @@
 # HpatoioBitlyBundle
 
+## This package is not maintained
+
 [![Total Downloads](https://poser.pugx.org/hpatoio/bitly-bundle/downloads.png)](https://packagist.org/packages/hpatoio/bitly-bundle)
 [![Latest Stable Version](https://poser.pugx.org/hpatoio/bitly-bundle/v/stable.png)](https://packagist.org/packages/hpatoio/bitly-bundle)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hpatoio/bitlybundle/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
